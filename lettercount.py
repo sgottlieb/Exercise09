@@ -25,7 +25,7 @@ def lettercount(filename):
 	# loop through alphabet list 
 
 	for letter in text:
-		indexnumber= ord(letter)-97
+		indexnumber= ord(letter)- ord('a')
 		if indexnumber >= 0 and indexnumber < 26:
 			alphabet_count[indexnumber]+= 1
 		
